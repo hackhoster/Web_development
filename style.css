@@ -1,7 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Big Shoulders Stencil Text', cursive;
+  /*font-family: 'Big Shoulders Stencil Text', cursive;*/
+    font-family: 'Dosis', sans-serif;
 }
 
 ::selection {
@@ -45,6 +46,7 @@ small {
 
 p {
   padding: 10px;
+  font-family: 'Dosis', sans-serif;
 }
 
 #list,
@@ -121,4 +123,5 @@ footer {
   padding: 10px;
   background: black;
   color: #86FDE8;
+
 }
