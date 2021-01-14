@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+::selection {
+  color: white;
+  background: white;
+}
+
+body {
+  background: white;
+}
+
+h1 {
+  background: black;
+  color: #86FDE8;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px black double;
+
+}
+
+small {
+  background: #86FDE8;
+  padding: 10px;
+  color: black;
+  border-bottom: 2px black solid;
+  border-right: 2px black inset;
+
+}
+
+.sp1 {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sp2 {
+  color: black;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+#list,
+#List2 {
+  width: 300px;
+  height: 268px;
+  margin: 30px;
+  background: white;
+  border: 2px black solid;
+  display: flex;
+}
+
+#List h1,
+#List2 h1 {
+  border-right: 2px #86FDE8 solid;
+  border-bottom: 0px black solid;
+}
+
+#list .a1,
+.a2 {
+  text-decoration: none;
+  flex: 3;
+  color: #86FDE8;
+  display: block;
+  text-align: center;
+  line-height: 280px;
+  font-size: 20px;
+  /*background: linear-gradient( #86FDE8, black);*/
+  background: black;
+}
+
+#List2 .a3,
+.a4 {
+  text-decoration: none;
+  flex: 3;
+  color: #86FDE8;
+  display: block;
+  text-align: center;
+  line-height: 280px;
+  font-size: 20px;
+  /*background: linear-gradient( #86FDE8, black);*/
+  background: black;
+}
+
+.a4 {
+  border-right: 0px white solid;
+}
+
+#tq {
+  background: black;
+}
+
+#tq h2 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+
+}
+
+#tq ul {
+  list-style-type: square;
+  color: #86FDE8;
+  border-bottom: 0.5px white solid;
+
+}
+
+#tq li {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: #86FDE8;
+}
