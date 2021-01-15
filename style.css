@@ -1,8 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  /*font-family: 'Big Shoulders Stencil Text', cursive;*/
-    font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 ::selection {
@@ -74,7 +73,6 @@ p {
   text-align: center;
   line-height: 280px;
   font-size: 20px;
-  /*background: linear-gradient( #86FDE8, black);*/
   background: black;
 }
 
@@ -87,7 +85,6 @@ p {
   text-align: center;
   line-height: 280px;
   font-size: 20px;
-  /*background: linear-gradient( #86FDE8, black);*/
   background: black;
 }
 
@@ -123,5 +120,4 @@ footer {
   padding: 10px;
   background: black;
   color: #86FDE8;
-
 }
