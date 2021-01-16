@@ -26,6 +26,7 @@ h5 {
   color: #86FDE8;
   background: black;
   font-size: 25px;
+  border-right: 2px #86FDE8 solid;
 }
 
 small {
