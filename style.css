@@ -19,7 +19,13 @@ h1 {
   padding: 30px;
   text-align: center;
   border-bottom: 2px black double;
+}
 
+h5 {
+  padding: 10px 30px;
+  color: #86FDE8;
+  background: black;
+  font-size: 25px;
 }
 
 small {
