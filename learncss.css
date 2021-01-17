@@ -1,9 +1,13 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: 'Dosis', sans-serif;
+
 }
-body{background: white;}
+
+body {
+  background: white;
+}
 
 #List_of_contant {}
 
@@ -13,7 +17,7 @@ body{background: white;}
   position: fixed;
   top: 0px;
   color: black;
-  background:#86FDE8;
+  background: #86FDE8;
   opacity: 0.7;
   font-size: 30px;
   padding: 10px 155px;
@@ -36,15 +40,18 @@ body{background: white;}
   text-decoration: none;
   transition: 2s;
 }
-#List_of_contant a:hover{
+
+#List_of_contant a:hover {
   color: #DC143C;
   border: 1px green solid;
 }
+
 footer p {
-  text-align:  center;
+  text-align: center;
   padding: 10px;
-  background:#86FDE8;
+  background: #86FDE8;
 }
-footer a{
-  color:black;
+
+footer a {
+  color: black;
 }
