@@ -13,6 +13,9 @@
       padding: 0px;
       font-family: 'Dosis', sans-serif;
     }
+    html {
+      scroll-behavior: smooth;
+    }
 
     h1 {
       background: #86FDE8;
@@ -66,6 +69,19 @@
     .sp4 {
       padding: 10px
     }
+
+    .floating_txt {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      padding: 10px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #00FF7F;
+      background: black;
+      border: 2px groove;
+      font-weight: bold;
+    }
   </style>
 </head>
 
@@ -77,6 +93,7 @@
     <li>border-style: <b>none / hidden / dashed / dotted / solid / double / groove / ridge / inset / outset</b></li>
     <li>border-color:</li>
     <li>border-size:</li>
+    <li>border-radius:</li>
   </ul><br>
   <hr><br>
   <h2>border-style</h2>
@@ -158,9 +175,8 @@
       <span class="sp4">}</span><br><br></div><br><br><br>
     <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a><br><br><br>
   </ul>
-  <hr>
-  <section>
-    <h2 style="color:#00FF7F">Pro Tip!</h2>
+  <section id="protip" style="background: #00FF7F">
+    <h2 style="background:#00FF7F; color:black">Pro Tip!</h2><br>
     <ul id="ul-1">
       <li>This is pro tip to use border tags.</li>
       <li>we can able to write text : style,size,color.</li>
@@ -169,11 +185,11 @@
         <span class="sp2">&nbsp;&nbsp;border:</span>
         <span class="sp3">2px solid black;</span> <br>
         <span class="sp4">}</span></div>
-        <br><br><br>
-            <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a><br><br><br>
-        
+      <br><br><br>
+      <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a><br><br><br>
     </ul>
   </section>
+  <a class="floating_txt" href="#protip">Tips</a>
 </body>
 
 </html>
