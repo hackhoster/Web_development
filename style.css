@@ -97,7 +97,6 @@ p {
 
 .a1,
 .a3 {
-  transform: translatey(10px);
   animation-name: drop-down2;
   animation-duration: 10s;
   animation-iteration-count: infinite;
