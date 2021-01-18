@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Dosis', sans-serif;
+  box-sizing: border-box;
 }
 
 ::selection {
@@ -27,8 +28,8 @@ h5 {
   background: black;
   font-size: 25px;
   border-right: 2px #86FDE8 solid;
-  border-top-left-radius:30px;
-  border-bottom-left-radius:30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 small {
@@ -64,7 +65,7 @@ p {
   margin: 30px;
   background: white;
   display: flex;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
 #List h1,
@@ -83,6 +84,26 @@ p {
   line-height: 280px;
   font-size: 20px;
   background: black;
+}
+
+.a2,
+.a4 {
+  animation-name: drop-down1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  transition: 2s;
+}
+
+.a1,
+.a3 {
+  transform: translatey(10px);
+  animation-name: drop-down2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  transition: 2s;
+
 }
 
 #List2 .a3,
@@ -129,4 +150,25 @@ footer {
   padding: 10px;
   background: black;
   color: #86FDE8;
+}
+
+@keyframes drop-down1 {
+  from {
+    transform: translatey(0px);
+  }
+
+  to {
+    transform: translatey(20px);
+    border: 0.5px inset white;
+  }
+}
+
+@keyframes drop-down2 {
+  from {
+    transform: translatey(0px);
+  }
+
+  to {
+    transform: translatey(10px);
+  }
 }
