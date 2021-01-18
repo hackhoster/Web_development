@@ -6,35 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
   <title>Width & Height</title>
-  <style>
-    * {
-      margin: 0px;
-      padding: 0px;
-      font-family: 'Dosis', sans-serif;
-    }
-
-    h1 {
-      background: #86FDE8;
-      padding: 20px 10px;
-    }
-
-    h2 {
-      font-family: 'Dosis', sans-serif;
-      padding: 10px;
-    }
-
-    #ul-1,
-    #ul-3,
-    #ul-2 {
-      margin-left: 30px;
-      list-style-type: square;
-    }
-
-    b {
-      color: green;
-    }
-  </style>
 </head>
 
 <body>
@@ -43,26 +16,99 @@
   <ul id="ul-1">
     <small style="font-size: 20px; color: green">: CSS Width & Height are commonly specified according their name.</small> <br> <br>
     <li>Width Css properties sets the width of element.</li>
-       <li>Height Css properties sets the Height of element.</li>
-       <li></li>
-  </ul><br><hr><br>
-  <h2>Color Name</h2>
+    <li>Height Css properties sets the Height of element.</li>
+    <li>max-height</li>
+    <li>min-height</li>
+    <li>max-width</li>
+    <li>min-width</li>
+  </ul><br>
+  <hr><br>
+  <h2>Width</h2>
   <ul id="ul-2">
-    <li>It define any valid color by its name. <br> <b> Now We are using External Css.</b></li>
-    <img width="300px" src="Screenshot_2021-01-15-10-43-58-54.jpg" alt="bg">
-  </ul><br><hr><br>
-  <h2>Hexadecimal Color Value</h2>
+    <li>Width Css properties sets the width of element.</li>
+    <li><b>Width haven't auto height</b></li>
+    <div class="bg_div" style="height: 60px">
+      <span class="sp1">div</span>&nbsp;&nbsp;&nbsp;<span>{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="sp2">&nbsp;&nbsp;width:</span>
+      <span class="sp3">200px;</span> <br>
+      <span class="sp4">}</span><br><br></div><br><br><br>
+    <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a>
+  </ul><br>
+  <hr><br>
+  <h2>Height</h2>
   <ul id="ul-3">
-    <li>It defines by colour's #Hexadecimal value <br><b> Now We are using External Css.</b></li>
-    <img width="300px" src="Screenshot_2021-01-15-10-54-26-51.jpg" alt="bg">
-  </ul><br><hr><br>
-   <h2>RGB Color Value</h2>
-   <ul id="ul-3">
-     <li>RGB stands for Red,Green,Blue. <br><b> Now We are using External Css.</b></li>
-     <li>This is hard to use.</li>
-     <li>My Opinion Use HEXADECIMAL VALUE.</li>
-     <img width="300px" src="IMG_20210115_121032.jpg" alt="bg">
-   </ul>
+    <li>Height Css properties sets the Height of element.</li>
+    <li><b>Height have auto 100% of width</b></li>
+    <div class="bg_div" style="height: 60px">
+      <span class="sp1">div</span>&nbsp;&nbsp;&nbsp;<span>{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="sp2">&nbsp;&nbsp;height:</span>
+      <span class="sp3">200px;</span> <br>
+      <span class="sp4">}</span><br><br></div><br><br><br>
+    <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a><br><br><br>
+  </ul><br>
+  <hr><br>
+  <h2>Min Width</h2>
+  <ul id="ul-3">
+    <li>The min-width property defines the minimum width of an element.</li>
+    <li>If the content is smaller than the minimum width, the minimum width will be applied</li>
+    <li>This prevents the value of the width property from becoming smaller than min-width.</li>
+    <li><b>Mostly used to make responsive web design.</b></li>
+    <div class="bg_div" style="height: 60px">
+      <span class="sp1">div</span>&nbsp;&nbsp;&nbsp;<span>{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="sp2">&nbsp;&nbsp;min-width:</span>
+      <span class="sp3">100px;</span> <br>
+      <span class="sp4">}</span><br><br></div><br><br><br>
+    <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a>
+  </ul><br>
+  <hr><br>
+  <h2>Max Width</h2>
+  <ul id="ul-3">
+    <li>The max-width property defines the maximum width of an element.</li>
+    <li>If the content is larger than the maximum width, it will automatically change the height of the element.</li>
+    <li>This prevents the value of the width property from becoming smaller than min-width. <br>
+      The value of the max-width property overrides the width property.</li>
+    <li>If the content is smaller than the maximum width, the max-width property has no effect.</li>
+    <li><b>Mostly used to make responsive web design.</b></li>
+    </li>
+    <div class="bg_div" style="height: 60px">
+      <span class="sp1">div</span>&nbsp;&nbsp;&nbsp;<span>{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="sp2">&nbsp;&nbsp;max-width:</span>
+      <span class="sp3">200px;</span> <br>
+      <span class="sp4">}</span><br><br></div><br><br><br>
+    <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a>
+  </ul><br>
+  <hr><br>
+  <h2>Max Height</h2>
+  <ul id="ul-3">
+    <li>The max-height property defines the maximum height of an element.</li>
+    <li>If the content is larger than the maximum height, it will overflow. How the container will handle the overflowing content is defined by the overflow property.</li>
+    <li>If the content is smaller than the maximum height, the max-height property has no effect.</li>
+    <li> This prevents the value of the height property from becoming larger than max-height. The value of the max-height property overrides the height property.</li>
+    <li><b>Mostly used to make responsive web design.</b></li>
+    </li>
+    <div class="bg_div" style="height: 60px">
+      <span class="sp1">div</span>&nbsp;&nbsp;&nbsp;<span>{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="sp2">&nbsp;&nbsp;max-height:</span>
+      <span class="sp3">200px;</span> <br>
+      <span class="sp4">}</span><br><br></div><br><br><br>
+    <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a>
+  </ul><br>
+  <hr><br>
+  <h2>Min Height</h2>
+  <ul id="ul-3">
+    <li>The min-height property defines the minimum height of an element.</li>
+    <li>If the content is smaller than the minimum height, the minimum height will be applied.</li>
+    <li>If the content is larger than the minimum height, the min-height property has no effect.</li>
+    <li>This prevents the value of the height property from becoming smaller than min-height.</li>
+    <li><b>Mostly used to make responsive web design.</b></li>
+    </li>
+    <div class="bg_div" style="height: 60px">
+      <span class="sp1">div</span>&nbsp;&nbsp;&nbsp;<span>{</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="sp2">&nbsp;&nbsp;min-height:</span>
+      <span class="sp3">200px;</span> <br>
+      <span class="sp4">}</span><br><br></div><br><br><br>
+    <a href="#" style=" text-decoration: none; color: black; font-size: 20px; background: #86FDE8;padding: 10px 20px; border-radius: 5px; margin-left: 80px;border: 1px inset black;">See Result</a>
+  </ul><br>
 </body>
 
 </html>
