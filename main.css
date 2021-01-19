@@ -41,6 +41,9 @@ b {
   margin-top: 5px;
   overflow-x: scroll;
 }
+.bg_div:hover {
+  height: 100px;
+}
 
 .sp1 {
   color: green;
